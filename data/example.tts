@@ -1,0 +1,16 @@
+;
+int count = 0.
+int max = 5.
+for -> count = 0 : count < max : count++ {
+    if -> count ! 2 {
+        display -> "Hey".
+    } <--> count <= 6 {
+        display -> "Yo".
+    } <--> count <= 6 {
+        display -> "Hi".
+    } <- {
+        display -> "Ola".
+    }
+}
+display -> "Helloo world 'count'".
+;

@@ -1,0 +1,4 @@
+; 
+    display -> "Hello World".
+    display -> 42.
+;

@@ -1,0 +1,15 @@
+;
+    int count = 10.
+    while -> count > 0 {
+        display -> "Count 'count'".
+        if -> count == 5 {
+            display -> "Count is 5".
+            count-- .
+        } <- -> count == 10 {
+            display -> "Count is 10".
+            count-- .
+        } <- {
+            count-- .
+        }
+    }
+;

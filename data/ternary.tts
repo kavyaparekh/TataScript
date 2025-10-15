@@ -1,0 +1,7 @@
+;
+    int apple = 3.
+    int mango = 10.
+    int difference = 0.
+    difference = apple < 5 -> apple - mango  <- apple + mango.
+    display -> difference.
+;

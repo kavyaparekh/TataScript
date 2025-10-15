@@ -1,0 +1,19 @@
+; 
+    int n = 5.
+    int result = 1.
+    display -> "Calculating factorial for: 'n'".
+
+    if -> n < 0 {
+        display -> "Factorial not defined for negative numbers".
+    }
+    <- -> n == 0 {
+        display -> "Factorial of 0 is 1".
+    } <- {
+        display -> "Intermediate results:".
+        for -> i = 1 : i <= n : i++ {
+            result = result * i.
+            display -> "Factorial of 'i' is 'result'".
+        }
+    
+    display -> "Final result: 'result'".
+} ;

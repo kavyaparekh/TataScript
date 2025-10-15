@@ -1,0 +1,12 @@
+;
+    int a = 42 + 4 / 2.
+    int b = (a - 5) + a.
+    int c = ( 50 / 10 / 5 + 5) - ( a + b ).
+    string msg = "This is so awesome".
+    string mango = "tasty".
+    display -> "a : 'a'".
+    display -> "b : 'b'".
+    display -> "c : 'c'".
+    display -> "msg : 'msg'".
+    display -> "mango : 'mango'".
+;
